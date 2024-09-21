@@ -25,5 +25,8 @@ def main(card_number):
         print('VALID!')
     else:
         print('INVALID!')
+print("Welcome to Credit/Debit card vaildator!")
+print("----------------------------------------")
+print("Enter Your Card Number: ")
+main(input())
 
-main('4522-7878-9090-1290')
